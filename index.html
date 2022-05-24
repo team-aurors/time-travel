@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Travel</title>
+</head>
+<body>
+    <script>
+        var name = prompt('Enter your name..');
+        var welcome = prompt('Hi ' + name + '! Type S to see the slides and type W to see the HTML project.');
+        switch(welcome) {
+            case "S":
+                window.location.href="https://docs.google.com/presentation/d/15I4Rhty-O2Vtx8GoIa4VhnEPQ2Lk2b_1JFnaFAMpVVw/present?slide=id.g4dfce81f19_0_45"
+                break;
+            case "W":
+                window.location.href="content.html"
+                break;
+            default:
+                alert('Type the correct letter. If you have typed the correct letter type it at Upper Case!');
+                window.location.href="index.html"
+                break;
+        }
+    </script>
+</body>
+</html>
